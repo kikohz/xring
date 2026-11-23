@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XRing 技术支持 · Support</title>
+<style>
+  :root { --bg: #ffffff; --text: #1c1c1e; --muted: #6b6b70; --line: #e5e5ea; --accent: #1f9d55; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111113; --text: #f2f2f7; --muted: #a1a1a8; --line: #2c2c2e; --accent: #4cd17f; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.7 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  nav { font-size: 15px; margin-bottom: 32px; }
+  nav a { color: var(--accent); text-decoration: none; margin-right: 16px; }
+  h1 { font-size: 30px; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  .date { color: var(--muted); font-size: 15px; margin: 0 0 24px; }
+  .lead { font-size: 18px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 64px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#zh">简体中文</a><a href="#en">English</a><a href="privacy.html">隐私政策 · Privacy</a></nav>
+
+<section id="zh" lang="zh-Hans">
+<h1>XRing 技术支持</h1>
+<p class="date">R20 / R21 系列智能戒指的配套 App</p>
+
+<p class="lead">遇到问题先看下面的常见问题。没解决的话，在 <a href="https://github.com/kikohz/xring/issues">GitHub</a> 上给我们留言，我们会尽快回复。</p>
+
+<h2>找不到戒指，或者连不上</h2>
+<ul>
+  <li>确认 iPhone 的蓝牙已打开，并且在「设置 › 隐私与安全性 › 蓝牙」里允许了 XRing。</li>
+  <li>给戒指充一会儿电，确认它有电。</li>
+  <li>戒指同一时间只能连一个 App。如果装了别的戒指 App，先把它完全退出。</li>
+  <li>让戒指靠近手机，然后在 App 里重新添加。</li>
+</ul>
+
+<h2>数据没有更新</h2>
+<ul>
+  <li>首页右上角显示「已连接」时才会同步。没连上的话，把 App 切到前台等几秒。</li>
+  <li>心率、血氧这些是戒指按间隔自动测的，不是每一秒都有读数。测量间隔可以在戒指设置里调。</li>
+  <li>睡眠数据要等你起床后一段时间，戒指整理完才会出现。</li>
+</ul>
+
+<h2>苹果「健康」里没有数据</h2>
+<ul>
+  <li>在 XRing 的「设置 › 苹果健康」里打开开关，并在弹出的授权页里允许要写入的类型。</li>
+  <li>之前点过拒绝的话，到系统「健康」App › 右上角头像 › App › XRing 里重新打开。</li>
+</ul>
+
+<h2>户外运动没有路线</h2>
+<p>记录路线需要定位权限。到「设置 › 隐私与安全性 › 定位服务 › XRing」里选「使用 App 期间」。</p>
+
+<h2>还没有戒指，想先看看</h2>
+<p>打开 App，在首页点「查看演示」，可以用示例数据体验全部功能。点顶部的「退出演示」返回。</p>
+
+<h2>怎么导出或删除我的数据</h2>
+<p>在「设置 › 隐私与数据」里可以导出健康数据。从 iPhone 上删除 XRing 会删掉 App 保存的全部数据。详细说明见<a href="privacy.html#zh">隐私政策</a>。</p>
+
+<h2>联系我们</h2>
+<p>在 <a href="https://github.com/kikohz/xring/issues">GitHub</a> 上新建一条留言，写上手机型号、系统版本、戒指型号和遇到的情况。请不要在留言里贴健康数据。</p>
+<p>XRing 不是医疗器械，数据仅供日常健康参考。身体不适请咨询医生。</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>XRing Support</h1>
+<p class="date">Companion app for R20 / R21 series smart rings</p>
+
+<p class="lead">Check the common questions below first. If that doesn't solve it, leave us a message on <a href="https://github.com/kikohz/xring/issues">GitHub</a> and we'll get back to you.</p>
+
+<h2>The ring isn't found or won't connect</h2>
+<ul>
+  <li>Make sure Bluetooth is on, and that XRing is allowed in Settings › Privacy &amp; Security › Bluetooth.</li>
+  <li>Charge the ring for a while to make sure it has power.</li>
+  <li>The ring can talk to only one app at a time. If you have another ring app installed, quit it completely first.</li>
+  <li>Keep the ring close to your iPhone and add it again in the app.</li>
+</ul>
+
+<h2>My data isn't updating</h2>
+<ul>
+  <li>Syncing happens while the Today tab shows "Connected". If it doesn't, bring the app to the foreground and wait a few seconds.</li>
+  <li>Heart rate and blood oxygen are measured automatically at intervals, not every second. You can change the interval in the ring settings.</li>
+  <li>Sleep data appears a while after you get up, once the ring has finished processing the night.</li>
+</ul>
+
+<h2>Nothing shows up in Apple Health</h2>
+<ul>
+  <li>Turn it on in XRing under Settings › Apple Health, and allow the types you want saved on the permission sheet.</li>
+  <li>If you declined earlier, open the Health app › your picture › Apps › XRing and turn the types back on.</li>
+</ul>
+
+<h2>My outdoor workout has no route</h2>
+<p>Routes need location access. Go to Settings › Privacy &amp; Security › Location Services › XRing and choose "While Using the App".</p>
+
+<h2>I don't have a ring yet</h2>
+<p>Open the app and tap "See a demo" on the Today tab to explore every feature with sample data. Tap "Exit demo" at the top to go back.</p>
+
+<h2>Exporting or deleting my data</h2>
+<p>You can export your health data in Settings › Privacy &amp; data. Deleting XRing from your iPhone deletes everything the app has stored. See the <a href="privacy.html#en">privacy policy</a> for details.</p>
+
+<h2>Contact</h2>
+<p>Open a new issue on <a href="https://github.com/kikohz/xring/issues">GitHub</a> with your iPhone model, iOS version, ring model and what happened. Please don't post health data in the issue.</p>
+<p>XRing is not a medical device. The data is for general wellness only. Talk to a doctor if you feel unwell.</p>
+</section>
+</main>
+</body>
+</html>
